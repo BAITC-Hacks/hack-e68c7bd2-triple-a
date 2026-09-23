@@ -6,6 +6,7 @@ import { SearchResults } from '../components/search/SearchResults';
 import { useSearch } from '../hooks/useSearch';
 import { useSearchDraft } from '../hooks/useSearchDraft';
 import { resultCountLabel } from '../utils/format';
+import { SEARCH_MODE } from '../config/runtime';
 
 export function SearchPage() {
   const { values, setField, resetDraft, storageAvailable } = useSearchDraft();
@@ -32,6 +33,7 @@ export function SearchPage() {
   return (
     <main>
       <Hero />
+      {SEARCH_MODE === 'catalog' && <p className="demo-notice"><strong>Демонстрационный каталог.</strong> Поиск работает по обезличенным данным хакатона, без серверного ИИ. Контакты и бронирование недоступны.</p>}
       <div className="workspace" id="search" tabIndex={-1}>
         <SearchForm values={values} setField={setField} loading={state.status === 'loading'} storageAvailable={storageAvailable} formRef={formRef} onSubmit={request => { void search(request); }} onReset={() => { resetDraft(); reset(); setAnnouncement('Параметры и результаты поиска сброшены.'); }} />
         <SearchResults state={state} bodyRef={resultsRef} onEdit={editParameters} onRetry={() => { if (state.request) void search(state.request); }} onCancel={() => { cancel(); setAnnouncement('Поиск отменён.'); requestAnimationFrame(editParameters); }} />

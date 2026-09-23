@@ -1,4 +1,6 @@
 import type { Contractor, SearchRequest, SearchResponse } from '../types/search'
+import { getSearchMode } from '../config/runtime'
+import { searchStaticCatalog } from './staticSearch'
 
 const INVALID_RESPONSE = 'Сервис вернул неполный или неожиданный ответ. Попробуйте повторить поиск.'
 
@@ -68,6 +70,7 @@ export function resolveApiBaseUrl(configured?: string, pageUrl?: string): string
 }
 
 export async function searchContractors(request: SearchRequest, signal?: AbortSignal): Promise<SearchResponse> {
+  if (getSearchMode() === 'catalog') return searchStaticCatalog(request, signal)
   const baseUrl = resolveApiBaseUrl(import.meta.env.VITE_API_BASE_URL)
   const response = await fetch(`${baseUrl}/search`, {
     method: 'POST',

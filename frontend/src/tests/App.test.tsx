@@ -38,6 +38,7 @@ const baseRequest = {
 };
 
 async function fillRequired(user: User) {
+  await user.selectOptions(screen.getByLabelText('Город'), 'Алматы');
   fireEvent.change(screen.getByLabelText('Дата события'), {
     target: { value: '2026-12-01' },
   });
@@ -63,11 +64,12 @@ describe('contractor search', () => {
     await submit(user);
 
     expect(searchMock).not.toHaveBeenCalled();
+    expect(screen.getByLabelText('Город')).toHaveAttribute('aria-invalid', 'true');
     expect(screen.getByLabelText('Дата события')).toHaveAttribute('aria-invalid', 'true');
     expect(screen.getByLabelText('Тип события')).toHaveAttribute('aria-invalid', 'true');
     expect(screen.getByLabelText('Кого ищете?')).toHaveAttribute('aria-invalid', 'true');
     expect(screen.getByLabelText('Бюджет на подрядчика')).toHaveAttribute('aria-invalid', 'true');
-    await waitFor(() => expect(screen.getByLabelText('Дата события')).toHaveFocus());
+    await waitFor(() => expect(screen.getByLabelText('Город')).toHaveFocus());
 
     await fillRequired(user);
     await submit(user);
@@ -111,7 +113,7 @@ describe('contractor search', () => {
       message: '<script>alert("message")</script>',
       results: successResponse.results.map((result) => ({ ...result, explanation: unsafeText })),
     });
-    const { container } = render(<App />);
+    render(<App />);
     await fillRequired(user);
     await submit(user);
 
@@ -122,7 +124,7 @@ describe('contractor search', () => {
     expect(within(card).getByText(unsafeText)).toBeInTheDocument();
     expect(within(card).getByText(/синтетический профиль для демо/i)).toBeInTheDocument();
     expect(screen.getByText('<script>alert("message")</script>')).toBeInTheDocument();
-    expect(container.querySelector('img, script')).toBeNull();
+    expect(screen.getByRole('region', { name: 'Подходящие подрядчики' }).querySelector('img, script')).toBeNull();
   });
 
   it('disables the form while loading and ignores a response received after cancellation', async () => {
@@ -139,7 +141,7 @@ describe('contractor search', () => {
     expect(screen.getByRole('button', { name: 'Сбросить' })).toBeDisabled();
     expect(screen.getByLabelText('Город')).toBeDisabled();
     expect(screen.getByLabelText('Бюджет на подрядчика')).toBeDisabled();
-    expect(screen.getByRole('region', { name: 'Ваша подборка' })).toHaveAttribute('aria-busy', 'true');
+    expect(screen.getByRole('region', { name: 'Подходящие подрядчики' })).toHaveAttribute('aria-busy', 'true');
 
     await user.click(screen.getByRole('button', { name: 'Отменить поиск' }));
 
@@ -152,7 +154,7 @@ describe('contractor search', () => {
     });
     expect(screen.queryByRole('heading', { name: 'Айдана Нур' })).not.toBeInTheDocument();
     expect(screen.queryByRole('heading', { name: 'Не удалось завершить поиск' })).not.toBeInTheDocument();
-    expect(screen.getByRole('region', { name: 'Ваша подборка' })).toHaveAttribute('aria-busy', 'false');
+    expect(screen.getByRole('region', { name: 'Подходящие подрядчики' })).toHaveAttribute('aria-busy', 'false');
   });
 
   it('retries a failed search using the same request', async () => {
@@ -208,7 +210,7 @@ describe('contractor search', () => {
     await submit(user);
 
     expect(await screen.findByRole('heading', { name: title })).toBeInTheDocument();
-    expect(within(screen.getByRole('region', { name: 'Ваша подборка' })).getByText('Измените условия поиска.')).toBeInTheDocument();
+    expect(within(screen.getByRole('region', { name: 'Подходящие подрядчики' })).getByText('Измените условия поиска.')).toBeInTheDocument();
     expect(screen.queryByRole('article')).not.toBeInTheDocument();
     await user.click(screen.getByRole('button', { name: 'Изменить параметры' }));
     expect(screen.getByLabelText('Город')).toHaveFocus();
@@ -231,7 +233,7 @@ describe('contractor search', () => {
     await screen.findByRole('heading', { name: 'Айдана Нур' });
     await user.click(screen.getByRole('button', { name: 'Сбросить' }));
 
-    expect(screen.getByLabelText('Город')).toHaveValue('Алматы');
+    expect(screen.getByLabelText('Город')).toHaveValue('');
     expect(screen.getByLabelText('Дата события')).toHaveValue('');
     expect(screen.getByLabelText('Тип события')).toHaveValue('');
     expect(screen.getByLabelText('Кого ищете?')).toHaveValue('');
@@ -240,9 +242,43 @@ describe('contractor search', () => {
 
     restoredRender.unmount();
     render(<App />);
-    expect(screen.getByLabelText('Город')).toHaveValue('Алматы');
+    expect(screen.getByLabelText('Город')).toHaveValue('');
     expect(screen.getByLabelText('Бюджет на подрядчика')).toHaveValue(null);
     expect(screen.getByLabelText('Дата события')).toHaveValue('');
+  });
+
+  it('sorts contractors by price and restores recommendation order without another search', async () => {
+    const user = userEvent.setup();
+    searchMock.mockResolvedValue({
+      ...successResponse,
+      results: [
+        ...successResponse.results,
+        { ...successResponse.results[0]!, id: 'photographer-2', name: 'Ерлан Касым', price_from_kzt: 180000 },
+      ],
+    });
+    render(<App />);
+    await fillRequired(user);
+    await submit(user);
+    await screen.findByRole('heading', { name: 'Айдана Нур' });
+
+    const names = () => screen.getAllByRole('article').map(card => within(card).getByRole('heading').textContent);
+    const resultStatus = within(screen.getByRole('region', { name: 'Подходящие подрядчики' })).getByRole('status');
+    expect(names()).toEqual(['Айдана Нур', 'Ерлан Касым']);
+    expect(screen.getByRole('button', { name: 'Рекомендации' })).toHaveAttribute('aria-pressed', 'true');
+
+    await user.click(screen.getByRole('button', { name: 'По цене' }));
+
+    expect(names()).toEqual(['Ерлан Касым', 'Айдана Нур']);
+    expect(screen.getByRole('button', { name: 'По цене' })).toHaveAttribute('aria-pressed', 'true');
+    expect(screen.getByRole('button', { name: 'Рекомендации' })).toHaveAttribute('aria-pressed', 'false');
+    expect(resultStatus).toHaveTextContent('Сначала варианты с меньшей ценой.');
+
+    await user.click(screen.getByRole('button', { name: 'Рекомендации' }));
+
+    expect(names()).toEqual(['Айдана Нур', 'Ерлан Касым']);
+    expect(screen.getByRole('button', { name: 'По цене' })).toHaveAttribute('aria-pressed', 'false');
+    expect(resultStatus).toHaveTextContent('Варианты в порядке рекомендаций.');
+    expect(searchMock).toHaveBeenCalledTimes(1);
   });
 });
 

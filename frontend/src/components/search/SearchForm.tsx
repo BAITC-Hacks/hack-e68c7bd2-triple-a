@@ -74,14 +74,14 @@ export function SearchForm({ values, setField, onSubmit, onReset, loading, stora
 
   return (
     <section className="form-card" aria-labelledby="form-title">
-      <SectionHeading id="form-title" step="01">О вашем событии</SectionHeading>
-      <p className="form-intro">Несколько деталей — и можно начинать поиск.</p>
+      <SectionHeading id="form-title" step="01">Параметры события</SectionHeading>
+      <p className="form-intro">Расскажите, что вам нужно.</p>
       <form id="search-form" ref={formRef} onSubmit={submit} noValidate>
         <fieldset disabled={loading}>
           <legend className="sr-only">Параметры события</legend>
           <div className="form-grid">
             <Field id="city" label="Город" error={errors.city}>
-              <select {...inputProps('city', 'city')} required>{CITIES.map(city => <option key={city} value={city}>{city}</option>)}</select>
+              <select {...inputProps('city', 'city')} required><option value="" disabled>Выберите город</option>{CITIES.map(city => <option key={city} value={city}>{city}</option>)}</select>
             </Field>
             <Field id="event-date" label="Дата события" error={errors.event_date} hint="23.09 — 31.12.2026">
               <input {...inputProps('event_date', 'event-date', true)} type="date" min={MIN_EVENT_DATE} max={MAX_EVENT_DATE} required />

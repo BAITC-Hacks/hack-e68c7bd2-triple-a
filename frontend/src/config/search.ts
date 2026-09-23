@@ -36,7 +36,7 @@ export const LANGUAGES = [
 ]
 
 export const INITIAL_FORM: SearchFormValues = {
-  city: 'Алматы',
+  city: '',
   event_date: '',
   event_type: '',
   category: '',

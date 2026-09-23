@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { useSectionNavigation } from '../../hooks/useSectionNavigation';
 import { Icon } from '../ui/Icon';
+import { BrandLogo } from '../ui/BrandLogo';
+import { InfoDialog } from '../ui/InfoDialog';
+import { ThemePicker } from '../ui/ThemePicker';
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,9 +39,8 @@ export function Header() {
 
   return (
     <header className="site-header" ref={headerRef}>
-      <a className="brand" href="#top" aria-label="Круг — главная" onClick={() => { setMenuOpen(false); setActiveSection('search'); }}>
-        <span className="brand-mark" aria-hidden="true" /><span className="brand-name">круг</span>
-        <span className="brand-description">Люди, которые создают<br />ваше событие</span>
+      <a className="brand" href="#top" aria-label="Shabyt — главная" onClick={() => { setMenuOpen(false); setActiveSection('search'); }}>
+        <BrandLogo />
       </a>
       <button className="menu-toggle" ref={menuButtonRef} type="button" aria-label={menuOpen ? 'Закрыть меню' : 'Открыть меню'} aria-expanded={menuOpen} aria-controls="main-navigation" onClick={() => setMenuOpen(open => !open)}>
         <Icon name={menuOpen ? 'close' : 'menu'} />
@@ -46,6 +48,11 @@ export function Header() {
       <nav className={`header-nav${menuOpen ? ' is-open' : ''}`} id="main-navigation" aria-label="Основная навигация">
         <a className={`nav-link${activeSection === 'search' ? ' is-active' : ''}`} href="#search" aria-current={activeSection === 'search' ? 'location' : undefined} onClick={() => { setActiveSection('search'); setMenuOpen(false); }}>Подобрать подрядчика</a>
         <a className={`nav-link${activeSection === 'how-it-works' ? ' is-active' : ''}`} href="#how-it-works" aria-current={activeSection === 'how-it-works' ? 'location' : undefined} onClick={() => { setActiveSection('how-it-works'); setMenuOpen(false); }}>Как это работает</a>
+        <InfoDialog trigger="Подрядчикам" title="Подрядчикам" className="nav-link" onOpen={() => setMenuOpen(false)} onDismiss={() => { if (window.matchMedia('(max-width: 780px)').matches) menuButtonRef.current?.focus(); }}>
+          <p>Shabyt помогает сравнить исполнителей по условиям события. Сейчас в каталоге используются обезличенные профили хакатона.</p>
+          <p>Самостоятельное добавление профиля, контакты и бронирование пока недоступны. Результаты показывают соответствие данным каталога; стоимость и занятость нужно подтвердить перед заказом.</p>
+        </InfoDialog>
+        <ThemePicker />
       </nav>
     </header>
   );

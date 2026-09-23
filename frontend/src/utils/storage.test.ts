@@ -52,9 +52,20 @@ describe('saved search drafts', () => {
     expect(removeSearchDraft(storage)).toBe(false)
   })
 
+  it('migrates the previous brand draft and clears both versions on reset', () => {
+    const storage = memoryStorage()
+    storage.setItem('krug.search-draft.v1', JSON.stringify({ version: 1, values: valid }))
+    expect(loadSearchDraft(storage).values).toEqual(valid)
+    expect(saveSearchDraft(valid, storage)).toBe(true)
+    expect(storage.getItem('krug.search-draft.v1')).toBeNull()
+    storage.setItem('krug.search-draft.v1', JSON.stringify({ version: 1, values: valid }))
+    expect(removeSearchDraft(storage)).toBe(true)
+    expect(loadSearchDraft(storage).values).toEqual(INITIAL_FORM)
+  })
+
   it('does not mutate the shared initial form when an empty draft is modified', () => {
     const { values } = loadSearchDraft(memoryStorage())
     values.city = 'Астана'
-    expect(INITIAL_FORM.city).toBe('Алматы')
+    expect(INITIAL_FORM.city).toBe('')
   })
 })

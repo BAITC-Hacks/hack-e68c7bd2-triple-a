@@ -5,6 +5,7 @@ import { toSearchRequest, validateSearchForm } from './validation'
 
 const valid: SearchFormValues = {
   ...INITIAL_FORM,
+  city: 'Алматы',
   event_date: '2026-10-15',
   event_type: 'свадьба',
   category: 'Ведущий',
@@ -47,6 +48,6 @@ describe('search form validation', () => {
   })
 
   it('reports all missing required fields while leaving optional fields valid', () => {
-    expect(Object.keys(validateSearchForm(INITIAL_FORM))).toEqual(['event_date', 'event_type', 'category', 'budget_kzt'])
+    expect(Object.keys(validateSearchForm(INITIAL_FORM))).toEqual(['city', 'event_date', 'event_type', 'category', 'budget_kzt'])
   })
 })

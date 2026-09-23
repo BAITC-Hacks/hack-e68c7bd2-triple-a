@@ -2,7 +2,8 @@ import { INITIAL_FORM } from '../config/search'
 import type { SearchFormValues } from '../types/search'
 import { validateSearchForm } from './validation'
 
-export const SEARCH_DRAFT_KEY = 'krug.search-draft.v1'
+export const SEARCH_DRAFT_KEY = 'shabyt.search-draft.v1'
+const LEGACY_DRAFT_KEY = 'krug.search-draft.v1'
 export type DraftStorage = Pick<Storage, 'getItem' | 'setItem' | 'removeItem'>
 
 function getStorage(storage?: DraftStorage): DraftStorage | null {
@@ -31,7 +32,7 @@ export function loadSearchDraft(storage?: DraftStorage): { values: SearchFormVal
   if (!target) return { values: { ...INITIAL_FORM }, storageAvailable: false }
   let raw: string | null
   try {
-    raw = target.getItem(SEARCH_DRAFT_KEY)
+    raw = target.getItem(SEARCH_DRAFT_KEY) ?? target.getItem(LEGACY_DRAFT_KEY)
   } catch {
     return { values: { ...INITIAL_FORM }, storageAvailable: false }
   }
@@ -53,6 +54,7 @@ export function saveSearchDraft(values: SearchFormValues, storage?: DraftStorage
   if (!target) return false
   try {
     target.setItem(SEARCH_DRAFT_KEY, JSON.stringify({ version: 1, values }))
+    target.removeItem(LEGACY_DRAFT_KEY)
     return true
   } catch {
     return false
@@ -64,6 +66,7 @@ export function removeSearchDraft(storage?: DraftStorage): boolean {
   if (!target) return false
   try {
     target.removeItem(SEARCH_DRAFT_KEY)
+    target.removeItem(LEGACY_DRAFT_KEY)
     return true
   } catch {
     return false
