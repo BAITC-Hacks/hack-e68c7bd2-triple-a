@@ -1,0 +1,205 @@
+PASS catalog has 69 unique profiles
+PASS all 17 categories can be selected
+PASS all 16 synthetic markers retained
+PASS known demo returns expected top 3
+PASS missing category distinguished
+PASS low budget produces no_match
+PASS rare category explains fewer than 3
+PASS search order repeated exactly
+PASS response parser accepts required fields and extras
+PASS reject malformed API response null
+PASS reject malformed API response {}
+PASS reject malformed API response {"status":"ok","results":[]}
+PASS reject malformed API response {"status":"ok","results":"bad"
+PASS reject malformed API response {"status":"no_match","results"
+PASS reject malformed API response {"status":"ok","results":[{"id
+PASS reject malformed catalog 15
+PASS reject malformed catalog 16
+PASS reject malformed catalog 17
+PASS reject malformed catalog 18
+PASS reject malformed catalog 19
+PASS reject malformed catalog 20
+PASS reject malformed catalog 21
+PASS valid form has no errors
+PASS typed request matches contract
+PASS invalid date 20261114
+PASS invalid date 2026-W46-6
+PASS invalid date 2026-11-31
+PASS invalid date 2026-09-22
+PASS invalid date 2027-01-01
+PASS invalid date 
+PASS invalid budget -1
+PASS invalid duration -1
+PASS invalid budget 0
+PASS invalid duration 0
+PASS invalid budget 1.5
+PASS invalid duration 1.5
+PASS invalid budget NaN
+PASS invalid duration NaN
+PASS invalid budget 9007199254740992
+PASS invalid duration 9007199254740992
+PASS calendar boundary 2026-09-23
+PASS calendar boundary 2026-12-31
+PASS default API uses same-origin /api
+PASS API trailing slash normalized
+PASS reject unsafe API URL javascript:alert(1)
+PASS reject unsafe API URL //evil.test
+PASS reject unsafe API URL https://user:password@example.test
+PASS reject unsafe API URL https://example.test/?key=x
+PASS reject unsafe API URL file:///etc/passwd
+PASS draft save and restore
+PASS draft reset removes persisted data
+PASS blocked storage handled
+PASS corrupted draft ignored
+PASS API/static parity 0
+PASS API/static parity 1
+PASS API/static parity 2
+PASS API/static parity 3
+PASS API/static parity 4
+PASS API/static parity 5
+PASS API/static parity 6
+PASS API/static parity 7
+PASS API/static parity 8
+PASS API/static parity 9
+PASS API/static parity 10
+PASS API/static parity 11
+PASS API/static parity 12
+PASS API/static parity 13
+PASS API/static parity 14
+PASS API/static parity 15
+PASS API/static parity 16
+PASS API/static parity 17
+PASS API/static parity 18
+PASS API/static parity 19
+PASS API/static parity 20
+PASS API/static parity 21
+PASS API/static parity 22
+PASS API/static parity 23
+PASS API/static parity 24
+PASS API/static parity 25
+PASS API/static parity 26
+PASS API/static parity 27
+PASS API/static parity 28
+PASS API/static parity 29
+PASS API/static parity 30
+PASS API/static parity 31
+PASS API/static parity 32
+PASS API/static parity 33
+PASS API/static parity 34
+PASS API/static parity 35
+PASS API/static parity 36
+PASS API/static parity 37
+PASS API/static parity 38
+PASS API/static parity 39
+PASS API/static parity 40
+PASS API/static parity 41
+PASS API/static parity 42
+PASS API/static parity 43
+PASS API/static parity 44
+PASS API/static parity 45
+PASS API/static parity 46
+PASS API/static parity 47
+PASS API/static parity 48
+PASS API/static parity 49
+PASS API/static parity 50
+PASS API/static parity 51
+PASS API/static parity 52
+PASS API/static parity 53
+PASS API/static parity 54
+PASS API/static parity 55
+PASS API/static parity 56
+PASS API/static parity 57
+PASS API/static parity 58
+PASS API/static parity 59
+PASS API/static parity 60
+PASS API/static parity 61
+PASS API/static parity 62
+PASS API/static parity 63
+PASS API/static parity 64
+PASS API/static parity 65
+PASS API/static parity 66
+PASS API/static parity 67
+PASS API/static parity 68
+PASS API/static parity 69
+PASS API/static parity 70
+PASS API/static parity 71
+PASS API/static parity 72
+PASS API/static parity 73
+PASS API/static parity 74
+PASS API/static parity 75
+PASS API/static parity 76
+PASS API/static parity 77
+PASS API/static parity 78
+PASS API/static parity 79
+PASS API/static parity 80
+PASS API/static parity 81
+PASS API/static parity 82
+PASS API/static parity 83
+PASS API/static parity 84
+PASS API/static parity 85
+PASS API/static parity 86
+PASS API/static parity 87
+PASS API/static parity 88
+PASS API/static parity 89
+PASS API/static parity 90
+PASS API/static parity 91
+PASS API/static parity 92
+PASS API/static parity 93
+PASS API/static parity 94
+PASS API/static parity 95
+PASS API/static parity 96
+PASS API/static parity 97
+PASS API/static parity 98
+PASS API/static parity 99
+PASS API/static parity 100
+PASS API/static parity 101
+PASS API/static parity 102
+PASS API/static parity 103
+PASS API/static parity 104
+PASS API/static parity 105
+PASS API/static parity 106
+PASS API/static parity 107
+PASS API/static parity 108
+PASS API/static parity 109
+PASS API/static parity 110
+PASS API/static parity 111
+PASS API/static parity 112
+PASS API/static parity 113
+PASS API/static parity 114
+PASS API/static parity 115
+PASS API/static parity 116
+PASS API/static parity 117
+PASS API/static parity 118
+PASS API/static parity 119
+PASS API/static parity 120
+PASS API/static parity 121
+PASS API/static parity 122
+PASS API/static parity 123
+PASS API/static parity 124
+PASS API/static parity 125
+PASS API/static parity 126
+PASS API/static parity 127
+PASS API/static parity 128
+PASS API/static parity 129
+PASS API/static parity 130
+PASS API/static parity 131
+PASS API/static parity 132
+PASS API/static parity 133
+PASS API/static parity 134
+PASS API/static parity 135
+PASS API/static parity 136
+PASS API/static parity 137
+PASS API/static parity 138
+PASS API/static parity 139
+PASS API/static parity 140
+PASS API/static parity 141
+PASS API/static parity 142
+PASS API/static parity 143
+PASS API/static parity 144
+PASS API/static parity 145
+PASS API/static parity 146
+PASS API/static parity 147
+PASS API/static parity 148
+PASS API/static parity 149
+
+203 core checks passed (actual service TS transpiled with TypeScript; not a Vite build).

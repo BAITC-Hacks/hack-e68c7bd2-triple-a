@@ -1,0 +1,48 @@
+PASS Initial screen renders, no empty white screen
+PASS Skip link remains keyboard accessible without floating over content
+PASS Available storage does not show a warning
+PASS All 17 categories are selectable
+PASS Empty form validates five fields and focuses first error
+PASS Demo after invalid submission removes stale field errors
+PASS Reset clears validation errors
+PASS Category shortcut fills actual form
+PASS Demo uses FastAPI and returns expected three profiles in order
+PASS Profile explanations are distinct
+PASS Local explanation is not mislabeled as AI
+PASS Demo fills corresponding budget and form values
+PASS Form draft is written to storage adapter
+PASS Price sort reorders the actual results
+PASS Recommendation sort restores ranking
+PASS Profile detail disclosure opens
+PASS Repeated UI request keeps same order
+PASS A changed date changes the displayed selection
+PASS Rare scenario shows one synthetic profile and a reason for fewer results
+PASS No-match state has a human-readable explanation
+PASS Empty-state action returns focus to form
+PASS No-category state is distinct from no-match
+PASS Negative budget is blocked in form
+PASS Negative duration is blocked in form
+PASS Network failure renders useful error instead of blank screen
+PASS Retry succeeds after temporary network failure
+PASS 503 response is handled
+PASS Malformed response is rejected without crashing
+PASS Loading disables duplicate form/preset submissions and allows cancel
+PASS Cancel restores usable idle form
+PASS 12-second client timeout produces recoverable error
+PASS Untrusted profile HTML is displayed as text, not executed
+PASS Late response after cancellation cannot replace idle state
+PASS Dark theme selector updates root theme
+PASS Native dialog opens and closes with Escape
+PASS Idle layout has no horizontal overflow at 1440px
+PASS Idle layout has no horizontal overflow at 1024px
+PASS Idle layout has no horizontal overflow at 768px
+PASS Idle layout has no horizontal overflow at 390px
+PASS Idle layout has no horizontal overflow at 375px
+PASS Idle layout has no horizontal overflow at 320px
+PASS Mobile navigation supports open and Escape/focus return
+PASS Mobile result cards fit viewport
+PASS Narrow 320px result layout fits viewport
+PASS Blocked localStorage shows warning but search remains functional
+PASS No uncaught JavaScript errors in tested UI scenarios
+
+46 compatibility browser checks passed.

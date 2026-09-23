@@ -1,0 +1,2042 @@
+[
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-18",
+      "event_type": "юбилей",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-01",
+      "event_type": "корпоратив",
+      "category": "Видеограф",
+      "budget_kzt": 300000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-15",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-26",
+      "event_type": "день рождения",
+      "category": "Фотограф",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-20",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-06",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-27",
+      "event_type": "той",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-68220"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-05",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-28",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-18",
+      "event_type": "конференция",
+      "category": "Загородная площадка",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-26",
+      "event_type": "юбилей",
+      "category": "Шоу-программа",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-30",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-10990"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-15",
+      "event_type": "той",
+      "category": "Фотограф",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-26",
+      "event_type": "корпоратив",
+      "category": "Декоратор",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-15",
+      "event_type": "корпоратив",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-31",
+      "event_type": "свадьба",
+      "category": "Флорист",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90001"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-10",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-72938",
+      "HK-77838"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-04",
+      "event_type": "корпоратив",
+      "category": "Декоратор",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-05",
+      "event_type": "конференция",
+      "category": "Инструменталист",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "ok",
+    "ids": [
+      "SYN-002"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-16",
+      "event_type": "корпоратив",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-12",
+      "event_type": "свадьба",
+      "category": "Декоратор",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90004",
+      "HK-90003"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-17",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-68220"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-28",
+      "event_type": "свадьба",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90007"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-12",
+      "event_type": "конференция",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-20",
+      "event_type": "корпоратив",
+      "category": "Фотограф",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-14",
+      "event_type": "свадьба",
+      "category": "Загородная площадка",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-06",
+      "event_type": "той",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-01",
+      "event_type": "свадьба",
+      "category": "Декоратор",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-05",
+      "event_type": "конференция",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-35913",
+      "HK-30583"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-15",
+      "event_type": "корпоратив",
+      "category": "Инструменталист",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-14",
+      "event_type": "той",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-12",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 1000,
+      "duration_hours": 12,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-07",
+      "event_type": "корпоратив",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-09-30",
+      "event_type": "корпоратив",
+      "category": "Инструменталист",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-21",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-11",
+      "event_type": "день рождения",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-08",
+      "event_type": "корпоратив",
+      "category": "Фото и видеобудки",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-27",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-16628"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-22",
+      "event_type": "юбилей",
+      "category": "Флорист",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-26",
+      "event_type": "юбилей",
+      "category": "Инструменталист",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-46450"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-31",
+      "event_type": "юбилей",
+      "category": "Банкетный зал",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-13",
+      "event_type": "той",
+      "category": "Национальный ансамбль",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-04",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-25",
+      "event_type": "день рождения",
+      "category": "Фотограф",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-97737"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-26",
+      "event_type": "корпоратив",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-57480",
+      "HK-31819",
+      "HK-83709"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-17",
+      "event_type": "корпоратив",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-21",
+      "event_type": "той",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-15",
+      "event_type": "корпоратив",
+      "category": "Инструменталист",
+      "budget_kzt": 300000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-09",
+      "event_type": "свадьба",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 1000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-08",
+      "event_type": "юбилей",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-04",
+      "event_type": "корпоратив",
+      "category": "Инструменталист",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90013",
+      "HK-46450"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-02",
+      "event_type": "корпоратив",
+      "category": "Видеограф",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-20",
+      "event_type": "корпоратив",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-26",
+      "event_type": "свадьба",
+      "category": "Национальный ансамбль",
+      "budget_kzt": 1000000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-12",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-09",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-20",
+      "event_type": "свадьба",
+      "category": "Шоу-программа",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-35846"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-14",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-23",
+      "event_type": "юбилей",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-01",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-24",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-72938",
+      "HK-75012",
+      "HK-88430"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-26",
+      "event_type": "свадьба",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-77793"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-24",
+      "event_type": "корпоратив",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-16628",
+      "HK-35913"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-26",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-11",
+      "event_type": "свадьба",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 1000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-04",
+      "event_type": "конференция",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-27222"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-14",
+      "event_type": "той",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-29",
+      "event_type": "корпоратив",
+      "category": "Флорист",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90002"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-22",
+      "event_type": "день рождения",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-24",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-25",
+      "event_type": "день рождения",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-12",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-28",
+      "event_type": "корпоратив",
+      "category": "Видеограф",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-14",
+      "event_type": "конференция",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 1000000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90006"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-08",
+      "event_type": "конференция",
+      "category": "Отель",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-28",
+      "event_type": "корпоратив",
+      "category": "Декоратор",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-19",
+      "event_type": "корпоратив",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-27",
+      "event_type": "день рождения",
+      "category": "Банкетный зал",
+      "budget_kzt": 300000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-14",
+      "event_type": "корпоратив",
+      "category": "Фотограф",
+      "budget_kzt": 1000000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-11",
+      "event_type": "свадьба",
+      "category": "Инструменталист",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-27",
+      "event_type": "той",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "SYN-003"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-25",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-44923"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-23",
+      "event_type": "день рождения",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-08",
+      "event_type": "корпоратив",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-27",
+      "event_type": "день рождения",
+      "category": "Загородная площадка",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-01",
+      "event_type": "свадьба",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-17",
+      "event_type": "юбилей",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-22",
+      "event_type": "юбилей",
+      "category": "Декоратор",
+      "budget_kzt": 300000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-06",
+      "event_type": "той",
+      "category": "Отель",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90011"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-15",
+      "event_type": "свадьба",
+      "category": "Флорист",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-16",
+      "event_type": "конференция",
+      "category": "Декоратор",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-21",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-06",
+      "event_type": "юбилей",
+      "category": "Шоу-программа",
+      "budget_kzt": 1000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-17",
+      "event_type": "свадьба",
+      "category": "Флорист",
+      "budget_kzt": 1000000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-24",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-16628",
+      "HK-76268",
+      "HK-30583"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-31",
+      "event_type": "юбилей",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 500000,
+      "duration_hours": null,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-28",
+      "event_type": "свадьба",
+      "category": "Шоу-программа",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-14",
+      "event_type": "свадьба",
+      "category": "Инструменталист",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "SYN-002"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-19",
+      "event_type": "свадьба",
+      "category": "Шоу-программа",
+      "budget_kzt": 10000000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-08",
+      "event_type": "день рождения",
+      "category": "Фотограф",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-01",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-19",
+      "event_type": "юбилей",
+      "category": "Декоратор",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-17",
+      "event_type": "юбилей",
+      "category": "Декоратор",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "SYN-001"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-10",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-27",
+      "event_type": "конференция",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 1000000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-30",
+      "event_type": "юбилей",
+      "category": "Танцевальный коллектив",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-03",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-68220"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-12",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-01",
+      "event_type": "той",
+      "category": "Видеограф",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-26",
+      "event_type": "свадьба",
+      "category": "Ресторан",
+      "budget_kzt": 1000000,
+      "duration_hours": 12,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-12",
+      "event_type": "юбилей",
+      "category": "Видеограф",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Зарубежье",
+      "event_date": "2026-12-11",
+      "event_type": "конференция",
+      "category": "Фотограф",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-11",
+      "event_type": "той",
+      "category": "Ведущий",
+      "budget_kzt": 1000000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-24",
+      "event_type": "юбилей",
+      "category": "Видеограф",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-26",
+      "event_type": "корпоратив",
+      "category": "Шоу-программа",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-35846"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-30",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-22",
+      "event_type": "той",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": null,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-09-27",
+      "event_type": "юбилей",
+      "category": "Фотограф",
+      "budget_kzt": 1000,
+      "duration_hours": 12,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-26",
+      "event_type": "свадьба",
+      "category": "Банкетный зал",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-28",
+      "event_type": "день рождения",
+      "category": "Загородная площадка",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-03",
+      "event_type": "той",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-09",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": null,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-04",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-61323",
+      "HK-97737"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-29",
+      "event_type": "юбилей",
+      "category": "Национальный ансамбль",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-26",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-68220"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-12-05",
+      "event_type": "свадьба",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-07",
+      "event_type": "свадьба",
+      "category": "Флорист",
+      "budget_kzt": 300000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-04",
+      "event_type": "юбилей",
+      "category": "Фотограф",
+      "budget_kzt": 300000,
+      "duration_hours": 12,
+      "language": "русский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-12",
+      "event_type": "корпоратив",
+      "category": "Инструменталист",
+      "budget_kzt": 10000000,
+      "duration_hours": null,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-74147",
+      "HK-90013"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-04",
+      "event_type": "свадьба",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 300000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-77793"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-12",
+      "event_type": "той",
+      "category": "Лайв-бэнд",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-09",
+      "event_type": "той",
+      "category": "Банкетный зал",
+      "budget_kzt": 10000000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-26",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-08",
+      "event_type": "юбилей",
+      "category": "Декоратор",
+      "budget_kzt": 300000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-29",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-14",
+      "event_type": "свадьба",
+      "category": "Банкетный зал",
+      "budget_kzt": 500000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-10-24",
+      "event_type": "свадьба",
+      "category": "Видеограф",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-25",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-16",
+      "event_type": "юбилей",
+      "category": "Ведущий",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-17",
+      "event_type": "свадьба",
+      "category": "Подарки и сувениры",
+      "budget_kzt": 300000,
+      "duration_hours": 12,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90005"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-22",
+      "event_type": "юбилей",
+      "category": "Декоратор",
+      "budget_kzt": 1000000,
+      "duration_hours": null,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "SYN-001"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-25",
+      "event_type": "той",
+      "category": "Фотограф",
+      "budget_kzt": 10000000,
+      "duration_hours": 3,
+      "language": "казахский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-68220"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-11-29",
+      "event_type": "свадьба",
+      "category": "Флорист",
+      "budget_kzt": 500000,
+      "duration_hours": 12,
+      "language": null
+    },
+    "status": "ok",
+    "ids": [
+      "HK-90002"
+    ]
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-07",
+      "event_type": "корпоратив",
+      "category": "Шоу-программа",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-28",
+      "event_type": "свадьба",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 300000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-09-26",
+      "event_type": "конференция",
+      "category": "Ведущий",
+      "budget_kzt": 1000000,
+      "duration_hours": 3,
+      "language": "русский"
+    },
+    "status": "ok",
+    "ids": [
+      "HK-44733",
+      "HK-88430"
+    ]
+  },
+  {
+    "request": {
+      "city": "Астана",
+      "event_date": "2026-10-12",
+      "event_type": "корпоратив",
+      "category": "Ведущий",
+      "budget_kzt": 1000,
+      "duration_hours": null,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-11-29",
+      "event_type": "свадьба",
+      "category": "Фотограф",
+      "budget_kzt": 1000,
+      "duration_hours": 8,
+      "language": null
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-28",
+      "event_type": "свадьба",
+      "category": "Национальный ансамбль",
+      "budget_kzt": 1000,
+      "duration_hours": 3,
+      "language": "английский"
+    },
+    "status": "no_match",
+    "ids": []
+  },
+  {
+    "request": {
+      "city": "Алматы",
+      "event_date": "2026-12-18",
+      "event_type": "той",
+      "category": "Ведущий церемонии",
+      "budget_kzt": 300000,
+      "duration_hours": 8,
+      "language": "казахский"
+    },
+    "status": "no_match",
+    "ids": []
+  }
+]
