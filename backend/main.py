@@ -40,16 +40,23 @@ class SearchRequest(BaseModel):
     event_type: str
     category: str
     budget_kzt: int = Field(..., gt=0)
-    duration_hours: Optional[int] = None
+    duration_hours: Optional[int] = Field(default=None, gt=0)
     language: Optional[str] = None
 
     @field_validator("event_date")
     @classmethod
     def validate_date(cls, v: str) -> str:
         try:
-            dt.date.fromisoformat(v)
+            parsed = dt.date.fromisoformat(v)
         except ValueError as e:
             raise ValueError("event_date должен быть в формате YYYY-MM-DD") from e
+        min_date = dt.date(2026, 9, 23)
+        max_date = dt.date(2026, 12, 31)
+        if not (min_date <= parsed <= max_date):
+            raise ValueError(
+                "event_date должен быть в диапазоне 2026-09-23 — 2026-12-31 "
+                "(границы календаря датасета)"
+            )
         return v
 
     @field_validator("city", "event_type", "category")

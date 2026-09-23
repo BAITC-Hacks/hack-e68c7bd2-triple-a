@@ -26,7 +26,7 @@ generate_explanation(profile, match_reasons) -> str
 from __future__ import annotations
 
 import os
-import random
+import hashlib
 from typing import Any
 
 # --------------------------------------------------------------------------
@@ -103,12 +103,14 @@ def _offline_fallback(profile: dict[str, Any], match_reasons: dict[str, Any]) ->
     if not facts:
         facts.append("подходит по всем базовым условиям запроса (город, категория, формат)")
 
-    random.seed(profile.get("id", ""))  # детерминированная фраза для одного и того же id
+    # Не используем встроенный hash(): Python рандомизирует его между процессами.
+    # SHA-256 даёт одинаковый выбор шаблона после любого перезапуска.
     templates = [
         "{name}: {f0}, {f1}." if len(facts) > 1 else "{name}: {f0}.",
         "{f0}, {f1} — {name}." if len(facts) > 1 else "{f0} — {name}.",
     ]
-    template = templates[hash(profile.get("id", "")) % len(templates)]
+    stable_digest = hashlib.sha256(str(profile.get("id", "")).encode("utf-8")).digest()
+    template = templates[stable_digest[0] % len(templates)]
     return template.format(
         name=profile.get("anon_name", "Подрядчик"),
         f0=facts[0],
